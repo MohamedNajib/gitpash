@@ -1,6 +1,67 @@
-git colone
+git clone // نسخ الملفات علي الجهاز
+git config // 
+git status // 
 
-git init 
-git add .
-git commit -m "___"
-git push -u origin master
+
+git add
+git commit -m "الرساله"
+git push
+
+
+git commit -m "Git Command File"
+git add ttt.txt // اسم الملف
+git add * // لاضافة الكل
+
+_______________________________________________________
+// to update the file 
+git status // جلب الحاله
+git diff // لاظهار التعديل الذي تم علي الملف
+git add ttt.txt // اسم الملف
+git commit -m "Git Command File"
+git push
+
+
+___________
+//بعد عمل امر ال git add ttt.txt
+// للتراجع عن ارسال المملف 
+git reset head ttt.txt
+
+___________________________
+// جلب كل البرانش الموجوده
+git branch
+
+// جلب التعديلات التي تمة علي البرانش ودمجها في ملفات المشروع
+git pull origin
+
+_______________________________________________________
+// لانشاء مجلد 
+mkdir اسم المجلد
+make Directory
+
+// انشاء ملف
+touch new_file.txt
+______________
+// لفتح المجلد
+cd اسم المجلد
+cd: Change directory
+
+// فتح ملف وعرض محتواه
+cat ttt.txt
+______________
+// جلب جميع المجلدات الموجوده 
+dir
+
+____________________________________
+التعامل مع ال Git Configuration وتعديلها بكل الطرق
+// جلب كل الكونفجريشن الموجوده
+git config -l
+
+// لمعرفة الايميل الخاص بك او المستخدم
+git config --global user.email
+git config --global user.name
+// لتعديله
+git config --global user.email "الايميل الجدديد"
+
+// حذف بيانات من حقل الاعدادات من البيانات
+git config --global --unset user.name
+__________________________________________________________
