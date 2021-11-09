@@ -1,0 +1,6 @@
+git colone
+
+git init 
+git add .
+git commit -m "___"
+git push -u origin master
